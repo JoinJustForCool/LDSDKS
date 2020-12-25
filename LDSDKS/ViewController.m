@@ -61,7 +61,7 @@
     
 }
 
-
+#pragma mark - LDBus 调用示例
 - (void)asyncAction:(UIButton *)button{
     // 接口地址，参数
     LDParameter *p1 = [[LDParameter alloc] init];
@@ -112,5 +112,8 @@
 
     NSLog(@"主线程阻塞了吗？");
 }
+
+
+#pragma mark -
 
 @end
